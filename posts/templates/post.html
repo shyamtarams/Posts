@@ -1,0 +1,13 @@
+<h1>Create Post Page</h1>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+
+  <input id="id_title" name="title" type="text" class="form-control form-control" placeholder="Write about it" >
+  <input id="id_cover" name="cover" type="file" class="form-control form-control" placeholder="Write about it" >
+  <input id="id_email" name="email" type="email" class="form-control form-control" placeholder="Write about it" >
+  <input id="id_phno" name="phno" type="text" class="form-control form-control" placeholder="Write about it" >
+  <input id="id_adrss1" name="adrss1" type="text" class="form-control form-control" placeholder="Write about it" >
+  <input id="id_adrss2" name="adrss2" type="text" class="form-control form-control" placeholder="Write about it" >
+  <input id="id_dob" name="dob" type="date" class="form-control form-control" placeholder="Write about it" >
+  <button type="submit">Submit New Post</button>
+</form>
